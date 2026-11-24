@@ -42,18 +42,17 @@ console.log("Matrícula Ativa?", matriculaAtiva);
 // 5. Declare uma variável com let chamada 'media' que calcula a média.
 // 6. Imprima a média no console.
 // 7. Simule que o professor deu 0.5 ponto extra adicionando esse valor a média
+// 8. Imprima a nova média no console.
+//
+
+
+// TODO: Escreva o código do cálculo abaixo:
 const nota1 = 8.5;
 const nota2 = 7.0;
 const nota3 = 6.3;
 const nota4 = 7.9;
-let media = (nota1 + nota2 + nota3 + nota4)/4
-// 8. Imprima a nova média no console.
-//
-
-console.log(media+0.5)
-// TODO: Escreva o código do cálculo abaixo:
-
-
+let media = (nota1 + nota2 + nota3 + nota4)/4;
+console.log(media+0.5);
 
 
 
@@ -66,8 +65,8 @@ console.log(media+0.5)
 // 2. Tente acessar a variável 'descontoEspecial' FORA do bloco if (na linha indicada).
 // 3. Abra o Console do navegador (F12) e observe o erro que o JavaScript emite!
 // 4. Qual é o nome do erro que apareceu no Console? (Anote em um comentário).
-//Nome dod error: Uncaught ReferenceError: descontoEspecial is not defined
-const descontoEspecial = 0.20
+//Nome do error: Uncaught ReferenceError: descontoEspecial is not defined
+const descontoEspecial = 0.20;
 if (true) {
   const descontoEspecial = 0.20; // 20% de desconto
   console.log("Dentro do bloco - Desconto:", descontoEspecial); // Funciona!
