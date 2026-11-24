@@ -24,16 +24,13 @@ let idade = 24;
 let matriculaAtiva = true;
 
 // Teste de saída no Console:
-console.log(nomeCompleto)
-console.log(curso)
-console.log(idade)
-console.log(matriculaAtiva)
+
 // TODO: Descomente as linhas abaixo após declarar as variáveis acima:
 console.log("--- Desafio 1: Dados Cadastrais ---");
-// console.log("Nome do Aluno:", nomeCompleto);
-// console.log("Curso:", curso);
-// console.log("Idade:", idade);
-// console.log("Matrícula Ativa?", matriculaAtiva);
+console.log("Nome do Aluno:", nomeCompleto);
+console.log("Curso:", curso);
+console.log("Idade:", idade);
+console.log("Matrícula Ativa?", matriculaAtiva);
 console.log("Nome do Aluno:", nomeCompleto);
 console.log("Curso:" ,curso);
 console.log("Idade" ,idade);
