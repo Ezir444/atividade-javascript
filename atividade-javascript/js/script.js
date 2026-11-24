@@ -31,10 +31,7 @@ console.log("Nome do Aluno:", nomeCompleto);
 console.log("Curso:", curso);
 console.log("Idade:", idade);
 console.log("Matrícula Ativa?", matriculaAtiva);
-console.log("Nome do Aluno:", nomeCompleto);
-console.log("Curso:" ,curso);
-console.log("Idade" ,idade);
-console.log("Matrícula ativa?" ,matriculaAtiva);
+
 // -----------------------------------------------------------------------------
 // DESAFIO 2: CÁLCULO DE MÉDIA E REATRIBUIÇÃO COM LET
 // -----------------------------------------------------------------------------
